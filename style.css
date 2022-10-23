@@ -1,0 +1,353 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* start nav */
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: url(photo/blue_bg.png);
+}
+
+nav .image {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+}
+
+.image .ee {
+    display: flex;
+    align-items: center;
+}
+
+.image .ee :hover {
+    transition: all 2s ease;
+    transform: scale(2);
+}
+
+.image .ee a {
+    margin: 0px 20px;
+    text-decoration: none;
+}
+
+.image .ee .dfghj {
+    border-bottom: 2px solid rgb(54, 69, 227);
+}
+
+.nn {
+    display: flex;
+    align-items: center;
+    margin: 0px 50px;
+}
+
+.nn input {
+    border-radius: 20px;
+    padding: 6px 35px;
+    font-size: 20px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+}
+
+/* end vav  */
+/* start section mohamed */
+.mohamed {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* align-items: center; */
+    background-image: url(photo/blue_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.mohamed .bnm {
+    margin-top: 180px;
+    /* margin-right: 10px; */
+    margin-left: 60px;
+}
+
+.mohamed .bnm h1 {
+    font-size: 50px;
+}
+
+.mohamed .bnm p {
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.bvc {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    position: relative;
+}
+
+.bvc .v img {
+    width: 650px;
+}
+
+.bvc .c img {
+    position: absolute;
+    bottom: 170px;
+    left: 150px;
+}
+
+.rty img {
+    width: 200vh;
+    position: absolute;
+    top: 520px;
+    right: 270px;
+}
+
+.op img {
+    width: 70vh;
+    position: absolute;
+    right: 120px;
+    top: 370px;
+}
+
+/* end section mohamed  */
+/* start section imagety  */
+.imagety {
+    position: relative;
+    height: 800px;
+}
+
+.dfg img {
+    width: 50%;
+    position: absolute;
+    top: 40px;
+    left: 400px;
+}
+
+.qaz {
+    font-size: 13px;
+    position: absolute;
+    left: 300px;
+    top: 90px;
+}
+
+.qaz .hh img {
+    width: 60%;
+}
+
+.qaz .kk h3 {
+    margin-left: 20px;
+}
+
+.xcvb {
+    font-size: 12px;
+    position: absolute;
+    top: 170px;
+    left: 600px;
+}
+
+.xcvb .rfv img {
+    width: 50%;
+    margin-left: 20px;
+}
+
+.xcvb .gbn h3 {
+    margin-left: 30px;
+}
+
+.dfgh {
+    font-size: 12px;
+    position: absolute;
+    top: 370px;
+    left: 830px;
+}
+
+.dfgh .yu img {
+    width: 50%;
+}
+
+.dfgh .llk h3 {
+    margin-left: 70px;
+}
+
+.poiu {
+    position: relative;
+}
+
+.poiu .klj img {
+    width: 250px;
+    margin-left: 270px;
+    margin-top: 350px;
+}
+
+.poiu .wsx {
+    margin-left: 270px;
+    margin-top: 330px;
+    font-size: 20px;
+    position: absolute;
+    bottom: 90px;
+    left: 60px;
+    color: rgb(255, 255, 255);
+}
+
+.ftghy {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 100px;
+    position: relative;
+}
+
+.ftghy .mok img {
+    width: 130px;
+    position: absolute;
+    left: 270px;
+    top: 100px;
+}
+
+.ftghy .bhg img {
+    width: 300px;
+    position: absolute;
+    left: 530px;
+}
+
+.ftghy .rdf img {
+    width: 130px;
+    position: absolute;
+    top: 110px;
+    left: 950px;
+
+}
+
+.imagety .sdfghj {
+    position: absolute;
+    right: 480px;
+    bottom: -200px;
+}
+
+/* end section imagety */
+/* start footer  */
+.wsxcvb {
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 100px;
+    background-image: url(photo/WhatsApp\ Image\ 2022-10-23\ at\ 12.39.56\ PM.jpeg);
+    background-size: cover;
+    z-index: -1;
+    position: relative;
+}
+
+.wsxcvb .qsd {
+    position: absolute;
+    top: 265px;
+    left: 100px;
+}
+
+.wsxcvb .qsd .m {
+    display: flex;
+    flex-direction: row;
+}
+
+.wsxcvb .qsd .m .ry .we img {
+    position: absolute;
+    bottom: 100px;
+    left: 10px;
+}
+
+.wsxcvb .qsd .m .ry .we p {
+    position: absolute;
+    bottom: 105px;
+    left: 45px;
+    color: rgb(113, 13, 152)
+}
+
+.wsxcvb .qsd .m .sdt .poer img {
+    position: absolute;
+    bottom: 100px;
+    left: 150px;
+}
+
+.wsxcvb .qsd .m .sdt .poer p {
+    position: absolute;
+    bottom: 106px;
+    left: 190px;
+    color: rgb(113, 13, 152);
+}
+
+.wsxcvb .qsd .hdf {
+    display: flex;
+    flex-direction: row;
+}
+
+.wsxcvb .qsd .hdf a {
+    padding: 0px 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.wsxcvb .tyui img {
+    width: 430px;
+    position: absolute;
+    top: 113px;
+    right: 170px;
+}
+
+/* end footer  */
+/* start media  */
+@media only screen and (max-width:600px) {
+    nav {
+        font-size: 8px;
+    }
+
+    .mohamed {
+        font-size: 8px;
+    }
+
+    .imagety {
+        font-size: 8px;
+    }
+
+    .wsxcvb {
+        font-size: 8px;
+    }
+}
+
+@media only screen and (min-width:600px) and (max-width:767px) {
+    nav {
+        font-size: 20px;
+    }
+
+    .mohamed {
+        font-size: 20px;
+    }
+
+    .imagety {
+        font-size: 20px;
+    }
+
+    .wsxcvb {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:992px) {
+    nav {
+        font-size: 30px;
+    }
+
+    .mohamed {
+        font-size: 30px;
+    }
+
+    .imagety {
+        font-size: 30px;
+    }
+
+    .wsxcvb {
+        font-size: 30px;
+    }
+}
+
+/* end media  */
